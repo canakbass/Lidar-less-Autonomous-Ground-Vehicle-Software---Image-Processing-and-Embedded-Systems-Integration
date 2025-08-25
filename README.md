@@ -1,0 +1,2 @@
+# Lidar-less-Autonomous-Ground-Vehicle-Software---Image-Processing-and-Embedded-Systems-Integration
+ A motion software project for an autonomous unmanned ground vehicle that makes decisions using only image processing and basic sensor data. The project was developed specifically for the TEKNOFEST 2025 Unmanned Ground Vehicle Competition, focusing on more cost-effective and accessible technologies instead of advanced sensors like lidar.
