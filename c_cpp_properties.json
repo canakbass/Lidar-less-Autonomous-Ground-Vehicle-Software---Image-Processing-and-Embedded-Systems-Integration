@@ -1,0 +1,33 @@
+// .vscode/c_cpp_properties.json
+
+{
+    "configurations": [
+        {
+            "name": "STM32F4 NUCLEO-F446RE", // Kartın adı
+            "includePath": [
+                "${workspaceFolder}/**", // Proje klasöründeki tüm alt dizinleri dahil et
+
+                // Sizin belirttiğiniz tam yol ve güncel sürüm numarasıyla güncellendi:
+                "C:/Users/1hayr/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "C:/Users/1hayr/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "C:/Users/1hayr/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Drivers/CMSIS/Include"
+                
+                // Eğer projenizde USB, FreeRTOS veya başka Middlewares kullanıyorsanız, 
+                // ilgili 'Inc' klasörlerini de buraya eklemeniz gerekebilir. Örneğin:
+                // "C:/Users/1hayr/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.2/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+            ],
+            "defines": [
+                "STM32F446xx", // NUCLEO-F446RE kartı için doğru çip tanımı
+                "USE_HAL_DRIVER" // HAL kütüphanelerini kullandığını belirtir
+            ],
+            // Derleyici yolu: Eğer `arm-none-eabi-gcc` PATH'ine ekliyse bu yeterli.
+            // Aksi takdirde, STM32CubeIDE'nin içindeki tam yolu bulup buraya yapıştırmalısın.
+            // Örnek: "C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-arm.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/arm-none-eabi-gcc.exe"
+            "compilerPath": "arm-none-eabi-gcc", 
+            "cStandard": "c11", 
+            "cppStandard": "c++11", 
+            "intelliSenseMode": "gcc-arm" 
+        }
+    ],
+    "version": 4
+}
