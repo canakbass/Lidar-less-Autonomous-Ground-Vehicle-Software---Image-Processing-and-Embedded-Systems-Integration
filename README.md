@@ -1,6 +1,6 @@
 # TEKNOFEST 2025 İnsansız Kara Aracı Otonomi Projesi
 
-Bu proje, TEKNOFEST 2025 İnsansız Kara Aracı Yarışması için otonom, paletli bir kara aracının yazılım ve donanım mimarisini içerir. Sistem, Python ve C/C++ dillerinde modüler olarak geliştirilmiştir.
+Bu proje, TEKNOFEST 2025 İnsansız Kara Aracı Yarışması için otonom, paletli bir kara aracının yazılım ve donanım mimarisini içerir. Sistem, Python ve C/C++ dillerinde modüler olarak geliştirilmiştir.// Proje derinlik algısı olmadığından doğru responselar veremiyor bunu algoritmayı değiştirerek düzenleyebiliriz ancak yterince efektif olmadığını düşünerek burada bırakma kararı aldım.  
 
 ## Klasör Yapısı ve Dosyalar
 
@@ -30,4 +30,5 @@ Bu proje, TEKNOFEST 2025 İnsansız Kara Aracı Yarışması için otonom, palet
 
 ---
 Proje ile ilgili sorularınız için: canakbasforspecial@gmail.com
+
 
