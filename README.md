@@ -29,4 +29,5 @@ Bu proje, TEKNOFEST 2025 İnsansız Kara Aracı Yarışması için otonom, palet
 - Detaylı algoritma ve fonksiyon açıklamaları dosya içinde mevcuttur.
 
 ---
-Proje ile ilgili sorularınız için: [TEKNOFEST İKA Takımı]
+Proje ile ilgili sorularınız için: canakbasforspecial@gmail.com
+
